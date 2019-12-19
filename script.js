@@ -29,6 +29,9 @@
 // Successfully created .eslintrc.js file in /Users/emma/Documents/Coding/Lambda/WebApplicationsII/StaticProject
 // ESLint was installed locally. We recommend using this local copy instead of your globally-installed copy.
 
+// As soon as you have an npm project you require a build phase and public folder otherwise ziet will throw error
+// the public folder needs to hold the final JS file which has been concatonated (webpack)
+
 console.log(`this is working`);
 const greet = document.querySelector(".hello");
 greet.textContent = "Script is AWESOME!";
