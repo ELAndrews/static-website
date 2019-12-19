@@ -1,0 +1,25 @@
+{
+  "name": "staticproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "devserver": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ELAndrews/static-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ELAndrews/static-website/issues"
+  },
+  "homepage": "https://github.com/ELAndrews/static-website#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-plugin-react": "^7.17.0",
+    "live-server": "^1.2.1"
+  }
+}
